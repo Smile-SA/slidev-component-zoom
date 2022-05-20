@@ -1,3 +1,9 @@
+## 1.0.0 (2022-05-20)
+
+##### Refactors
+
+*  switch to use the new slidev addon system ([32645ead](https://github.com/Smile-SA/slidev-component-zoom/commit/32645eade3c61b75346e2763cdb4c961b0e84870))
+
 #### 0.1.1 (2022-05-06)
 
 ##### Chores
