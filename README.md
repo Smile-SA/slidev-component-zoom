@@ -24,21 +24,43 @@ And if it happen, you can still click on the "Reset Zoom" button in the control 
 npm i slidev-component-zoom
 ```
 
-## Usage
+## Configuration
 
-Create a `./setup/main.ts` file in your `Slidev` project and register the plugin:
-```js
-import { defineAppSetup } from '@slidev/types'
-import Zoom from 'slidev-component-zoom'
+Define this package into your slidev addons.
 
-export default defineAppSetup(({ app, router }) => {
-  app.use(Zoom)
-})
+In your slides metadata (using frontmatter):
 ```
+---
+addons:
+  - slidev-component-zoom
+---
+```
+
+Or in your `package.json`:
+```json
+{
+  "slidev": {
+    "addons": [
+      "slidev-component-zoom"
+    ]
+  }
+}
+```
+
+## Usage
 
 Create a `./custom-nav-controls.vue` file in your `Slidev` project and use the component:
 ```vue
 <template>
   <Zoom/>
 </template>
+```
+
+## Components
+
+### Zoom
+
+Component for the zoom feature:
+```vue
+<Zoom/>
 ```
