@@ -1,3 +1,9 @@
+#### 1.0.1 (2023-01-10)
+
+##### Bug Fixes
+
+*  zoom calculation ([20b54573](https://github.com/Smile-SA/slidev-component-zoom/commit/20b54573600f1cf7cc27d9b86abf46406fa4b01c))
+
 ## 1.0.0 (2022-05-20)
 
 ##### Refactors
