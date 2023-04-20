@@ -1,3 +1,9 @@
+#### 1.0.2 (2023-04-20)
+
+##### Bug Fixes
+
+*  styles and update package ([f61dd2dd](https://github.com/Smile-SA/slidev-component-zoom/commit/f61dd2ddf68e81048645cc04b99843471be726b6))
+
 #### 1.0.1 (2023-01-10)
 
 ##### Bug Fixes
