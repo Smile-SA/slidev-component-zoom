@@ -55,13 +55,13 @@
 
 <template>
   <VerticalDivider />
-  <button class="icon-btn" @click="zoomIn" title="Zoom in">
+  <button class="slidev-icon-btn" @click="zoomIn" title="Zoom in">
     <carbon:zoom-in />
   </button>
-  <button class="icon-btn" @click="zoomOut" title="Zoom out">
+  <button class="slidev-icon-btn" @click="zoomOut" title="Zoom out">
     <carbon:zoom-out />
   </button>
-  <button class="icon-btn" @click="zoomReset" title="Reset zoom">
+  <button class="slidev-icon-btn" @click="zoomReset" title="Reset zoom">
     <carbon:zoom-reset />
   </button>
   <div class="h-40px flex" p="l-1 t-0.5 r-2" text="sm leading-2">
