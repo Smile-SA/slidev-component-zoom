@@ -1,3 +1,10 @@
+### 1.1.0 (2024-04-02)
+
+##### Chores
+
+*  update deps ([3786d982](https://github.com/Smile-SA/slidev-component-zoom/commit/3786d98239375e6002afcb4479a7ccb1178e4611))
+*  update license ([0dabb96e](https://github.com/Smile-SA/slidev-component-zoom/commit/0dabb96e1c6c93924eeb04b3fb95d861ed51709d))
+
 #### 1.0.2 (2023-04-20)
 
 ##### Bug Fixes
