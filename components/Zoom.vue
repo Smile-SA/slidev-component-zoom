@@ -7,7 +7,6 @@
   const baseCodeFontSize = parseInt(style.getPropertyValue('--slidev-code-font-size'), 10);
   const baseCodeLineHeight = parseInt(style.getPropertyValue('--slidev-code-line-height'), 10);
   const zoomLevels = [0.25, 0.33, 0.5, 0.67, 0.75, 0.8, 0.9, 1, 1.1, 1.25, 1.5, 1.75, 2, 2.5, 3, 4, 5];
-  // const naturalZoomRatio = ref(1)
   const zoomIndex = ref(7);
   const zoomRatio = computed(() => zoomLevels[zoomIndex.value]);
 
